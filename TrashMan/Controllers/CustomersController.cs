@@ -9,7 +9,7 @@ using Microsoft.AspNetCore.Mvc;
 using TrashMan.Data;
 using TrashMan.Models;
 
-namespace TrashPickUp_Project.Controllers
+namespace TrashMan.Controllers
 {
     [Authorize(Roles = "Customer")]
     public class CustomersController : Controller
