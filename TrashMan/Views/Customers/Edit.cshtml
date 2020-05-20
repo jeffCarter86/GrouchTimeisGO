@@ -1,0 +1,68 @@
+﻿@model TrashMan.Models.CustomerSchedPickUp
+
+@{
+    ViewData["Title"] = "Edit";
+    Layout = "~/Views/Shared/_CustomerLayout.cshtml";
+}
+
+<h1>Edit</h1>
+
+<h4>CustomerSchedPickUp</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+            <div class="form-group">
+                <label asp-for="Address" class="control-label"></label>
+                <input asp-for="Address" class="form-control" />
+                <span asp-validation-for="Address" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ZipCode" class="control-label"></label>
+                <input asp-for="ZipCode" class="form-control" />
+                <span asp-validation-for="ZipCode" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DayOfWeek" class="control-label"></label>
+                <select asp-for="DayOfWeek" id="DaysOfWeek" name="DayOfWeek">
+                    <option value="Monday">Monday</option>
+                    <option value="Tuesday">Tuesday</option>
+                    <option value="Wednesday">Wednesday</option>
+                    <option value="Thursday">Thursday</option>
+                    <option value="Friday">Friday</option>
+                    <option value="Saturday">Saturday</option>
+                    <option value="Sunday">Sunday</option>
+                </select>
+                <span asp-validation-for="DayOfWeek" class="text-danger"></span>
+                <div class="form-group">
+                    <label asp-for="SuspendedStartDate" class="control-label"></label>
+                    <input asp-for="SuspendedStartDate" class="form-control" />
+                    <span asp-validation-for="SuspendedStartDate" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="SuspendedEndDate" class="control-label"></label>
+                    <input asp-for="SuspendedEndDate" class="form-control" />
+                    <span asp-validation-for="SuspendedEndDate" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="OneTimePickUp" class="control-label">One Time Pick Up Date</label>
+                    <input asp-for="OneTimePickUp" class="form-control" />
+                    <span asp-validation-for="OneTimePickUp" class="text-danger"></span>
+                </div>
+
+
+
+            </div>
+
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>

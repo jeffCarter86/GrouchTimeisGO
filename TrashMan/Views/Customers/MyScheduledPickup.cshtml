@@ -1,0 +1,59 @@
+﻿@model TrashMan.Models.CustomerSchedPickUp
+
+@{
+    ViewData["Title"] = "MyScheduledPickup";
+    Layout = "~/Views/Shared/_CustomerLayout.cshtml";
+}
+
+<h1>My Scheduled Pickup</h1>
+
+<div>
+
+    <hr />
+    <dl class="row">
+
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Address)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Address)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.ZipCode)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.ZipCode)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DayOfWeek)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DayOfWeek)
+        </dd>
+        <dt class="col-sm-2">
+            <p>One Time Pickup</p>
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.OneTimePickUp)
+        </dd>
+        <dt class="col-sm-2">
+            <p>Suspended Pickup Start Date</p>
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.SuspendedStartDate)
+        </dd>
+        <dt class="col-sm-2">
+            <p>Suspended Pickup End Date</p>
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.SuspendedEndDate)
+        </dd>
+
+
+
+    </dl>
+</div>
+<div>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
+    <a asp-action="Index">Back to Home</a>
+</div>

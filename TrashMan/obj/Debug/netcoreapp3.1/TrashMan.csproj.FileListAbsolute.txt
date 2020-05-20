@@ -158,3 +158,9 @@ C:\Users\jeff\Desktop\school\week7\projects\TrashMan\TrashMan\obj\Debug\netcorea
 C:\Users\jeff\Desktop\school\week7\projects\TrashMan\TrashMan\obj\Debug\netcoreapp3.1\TrashMan.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\jeff\Desktop\school\week7\projects\TrashMan\TrashMan\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_CustomerLayout.cshtml.g.cs
 C:\Users\jeff\Desktop\school\week7\projects\TrashMan\TrashMan\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_EmployeeLayout.cshtml.g.cs
+C:\Users\jeff\Desktop\school\week7\projects\TrashMan\TrashMan\obj\Debug\netcoreapp3.1\Razor\Views\Customers\Balance.cshtml.g.cs
+C:\Users\jeff\Desktop\school\week7\projects\TrashMan\TrashMan\obj\Debug\netcoreapp3.1\Razor\Views\Customers\Create.cshtml.g.cs
+C:\Users\jeff\Desktop\school\week7\projects\TrashMan\TrashMan\obj\Debug\netcoreapp3.1\Razor\Views\Customers\CreateScheduledPickUp.cshtml.g.cs
+C:\Users\jeff\Desktop\school\week7\projects\TrashMan\TrashMan\obj\Debug\netcoreapp3.1\Razor\Views\Customers\Edit.cshtml.g.cs
+C:\Users\jeff\Desktop\school\week7\projects\TrashMan\TrashMan\obj\Debug\netcoreapp3.1\Razor\Views\Customers\Index.cshtml.g.cs
+C:\Users\jeff\Desktop\school\week7\projects\TrashMan\TrashMan\obj\Debug\netcoreapp3.1\Razor\Views\Customers\MyScheduledPickup.cshtml.g.cs

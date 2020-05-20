@@ -15,8 +15,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Views\NewFolder - Copy\" />
-    <Folder Include="Views\NewFolder\" />
+    <Folder Include="Views\Employees\" />
   </ItemGroup>
 
 </Project>
