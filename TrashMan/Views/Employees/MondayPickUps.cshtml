@@ -1,0 +1,40 @@
+﻿@model IEnumerable<TrashMan.Models.CustomerSchedPickUp>
+@{
+    ViewData["Title"] = "MondayPickUps";
+    Layout = "~/Views/Shared/_EmployeeLayout.cshtml";
+}
+
+<h1>MondayPickUps</h1>
+
+<table class="table table-bordered  table-hover">
+    <tr>
+        <th>Customer Id </th>
+        <th>Address </th>
+        <th>City </th>
+        <th>Zip Code</th>
+        <th>Day Of Week</th>
+
+    </tr>
+    @foreach (var d in Model)
+    {
+        <tr>
+            <td>
+                @Html.ActionLink(
+                                 d.IdentityUserId,                                                  // linkText
+                                 "CustomerProfile",                                    // actionName
+                                 "Employees",                                                   // controllerName
+                                    new
+                                         { item = d.IdentityUserId },
+                                    null)
+                    </td>
+            <td>@d.Address</td>
+            <td>@d.City</td>
+            <td>@d.ZipCode</td>
+            <td>@d.DayOfWeek</td>
+
+
+        </tr>
+
+    }
+</table>
+<a asp-action="ScheduledPickUps">Back to Daily Schedule</a>

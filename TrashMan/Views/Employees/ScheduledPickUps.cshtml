@@ -1,0 +1,45 @@
+﻿
+@{
+    ViewData["Title"] = "SchedulePickUps";
+    Layout = "~/Views/Shared/_EmployeeLayout.cshtml";
+}
+
+<h1>Scheduled PickUps</h1>
+
+<table class="table table-bordered table-hover">
+    <tr>
+        <th>Day Of Week </th>
+
+
+    </tr>
+
+
+    <tr>
+        <td><a @Html.ActionLink("Monday", "MondayPickUps", "Employees", null, new { @class = "page-scroll" })</a></td>
+    <tr>
+        <td><a @Html.ActionLink("Tuesday", "TuesdayPickUps", "Employees", null, new { @class = "page-scroll" })</a></td>
+    </tr>
+    <tr>
+        <td><a @Html.ActionLink("Wednesday", "WednesdayPickUps", "Employees", null, new { @class = "page-scroll" })</a></td>
+    </tr>
+    <tr>
+        <td><a @Html.ActionLink("Thursday", "ThursdayPickUps", "Employees", null, new { @class = "page-scroll" })</a></td>
+    </tr>
+    <tr>
+        <td><a @Html.ActionLink("Friday", "FridayPickUps", "Employees", null, new { @class = "page-scroll" })</a></td>
+    </tr>
+    <tr>
+        <td><a @Html.ActionLink("Saturday", "SaturdayPickUps", "Employees", null, new { @class = "page-scroll" })</a></td>
+    </tr>
+    <tr>
+        <td><a @Html.ActionLink("Sunday", "SundayPickUps", "Employees", null, new { @class = "page-scroll" })</a></td>
+    </tr>
+
+
+
+
+    </tr>
+
+
+</table>
+<a asp-action="Index">Back to Today's Pickups</a>

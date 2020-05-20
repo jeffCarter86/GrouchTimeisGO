@@ -1,0 +1,96 @@
+﻿@model TrashMan.Models.Customer
+
+@{
+
+    ViewData["Title"] = "CustomerProfile";
+    Layout = "~/Views/Shared/_EmployeeLayout.cshtml";
+}
+
+<h1>Customer Profile</h1>
+
+<div>
+
+    <hr />
+    <dl class="row">
+
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Address)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Address)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.City)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.City)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.ZipCode)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.ZipCode)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Balance)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Balance)
+        </dd>
+
+    </dl>
+</div>
+<div id="dvMap" style="height:250px;"></div>
+<input type="text" id="Lat">
+<input type="text" id="Long">
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?libraries=places&key=AIzaSyAnxLPpaJuGZeaX-FBpaeyXMIRCKVq21xQ&callback=initMap" async defer></script>
+
+<script type="text/javascript">
+    
+    function initMap() {
+        //map..
+        
+       
+        var map = new google.maps.Map(document.getElementById('dvMap'), {
+            center: {
+                lat: 10.9968683,
+                lng: 76.00882
+            },
+            zoom: 15
+        });
+        //marker..
+        var marker = new google.maps.Marker({
+            position: {
+                lat: 10.9968683,
+                lng: 76.00882
+            },
+            map: map,
+            draggable: true
+        });
+
+        //dragend event of marker
+        google.maps.event.addListener(marker, 'dragend', function () {
+            var Lats = marker.getPosition().lat();
+            var Longs = marker.getPosition().lng();
+
+            $('#Lat').val(Lats);
+            $('#Long').val(Longs);
+
+        });
+    }
+</script>
+
+
+
+<div>
+
+    <a asp-action="Index">Back to Today's Pickups</a>
+</div>
+
