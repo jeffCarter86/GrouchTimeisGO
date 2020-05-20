@@ -178,6 +178,12 @@ C:\Users\jeff\Desktop\school\week7\projects\TrashMan\TrashMan\obj\Debug\netcorea
 C:\Users\jeff\Desktop\school\week7\projects\TrashMan\TrashMan\obj\Debug\netcoreapp3.1\Razor\Views\Employees\ThursdayPickUps.cshtml.g.cs
 C:\Users\jeff\Desktop\school\week7\projects\TrashMan\TrashMan\obj\Debug\netcoreapp3.1\Razor\Views\Employees\TuesdayPickUps.cshtml.g.cs
 C:\Users\jeff\Desktop\school\week7\projects\TrashMan\TrashMan\obj\Debug\netcoreapp3.1\Razor\Views\Employees\WednesdayPickUps.cshtml.g.cs
+C:\Users\jeff\Desktop\school\week7\projects\TrashMan\TrashMan\bin\Debug\netcoreapp3.1\EntityFramework.SqlServer.dll
+C:\Users\jeff\Desktop\school\week7\projects\TrashMan\TrashMan\bin\Debug\netcoreapp3.1\EntityFramework.dll
+C:\Users\jeff\Desktop\school\week7\projects\TrashMan\TrashMan\bin\Debug\netcoreapp3.1\System.CodeDom.dll
+C:\Users\jeff\Desktop\school\week7\projects\TrashMan\TrashMan\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+C:\Users\jeff\Desktop\school\week7\projects\TrashMan\TrashMan\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\jeff\Desktop\school\week7\projects\TrashMan\TrashMan\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
 C:\Users\jeff\Desktop\school\week7\projects\TrashMan\TrashMan\obj\Debug\netcoreapp3.1\TrashMan.csproj.CoreCompileInputs.cache
 C:\Users\jeff\Desktop\school\week7\projects\TrashMan\TrashMan\obj\Debug\netcoreapp3.1\TrashMan.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\jeff\Desktop\school\week7\projects\TrashMan\TrashMan\obj\Debug\netcoreapp3.1\TrashMan.MvcApplicationPartsAssemblyInfo.cache
