@@ -156,3 +156,5 @@ C:\Users\jeff\Desktop\school\week7\projects\TrashMan\TrashMan\bin\Debug\netcorea
 C:\Users\jeff\Desktop\school\week7\projects\TrashMan\TrashMan\obj\Debug\netcoreapp3.1\TrashMan.csproj.CoreCompileInputs.cache
 C:\Users\jeff\Desktop\school\week7\projects\TrashMan\TrashMan\obj\Debug\netcoreapp3.1\TrashMan.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\jeff\Desktop\school\week7\projects\TrashMan\TrashMan\obj\Debug\netcoreapp3.1\TrashMan.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\jeff\Desktop\school\week7\projects\TrashMan\TrashMan\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_CustomerLayout.cshtml.g.cs
+C:\Users\jeff\Desktop\school\week7\projects\TrashMan\TrashMan\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_EmployeeLayout.cshtml.g.cs
